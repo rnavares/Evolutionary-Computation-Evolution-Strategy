@@ -1,0 +1,53 @@
+#Search range
+max = 10
+min = -10
+
+#num. variables
+n_var = 25
+
+#Parameters of the strategy
+#rho : number of generating parents
+#tau : -1 default value 1/sqrt(nvar)
+#tau_prime : -1 default value 1/sqrt(2*sqrt(nvar))
+mu = 30
+lambda = 200
+sigma = 0.2
+rho = 2
+epsilon = 0.001
+tau = 0.3354
+tau_prime = 0.5015
+
+#type mutation
+# 1: Ucorr 1 Step
+# 2: Uncorr N Step
+type_mutation = 2
+
+#tipo de combination
+# 1: discretre
+# 2: intermediate
+type_combination = 1
+
+#tipo selection
+#1: mu,lambda
+#2: mu+lambda
+type_selecyion = 2
+
+#number of \generations
+generations = 1200
+
+#number of \simulations
+simulations = 30
+
+#test functions
+#1: sphere
+#2: Schwefel
+#3: DeJong
+function = 1
+
+#test algorithm parameters
+#0: solve the min/max problem
+#1: test sigmas
+#2: test taus
+#3: test \epsilon
+test_parameters = 0
+
